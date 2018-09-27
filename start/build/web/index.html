@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ace Nation backyard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="pet.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script type="text/javascript" >
+            function show(){
+                //alert("dd");
+                document.getElementById("popup1").style.display="block";
+            }
+            function hide(){
+                //alert("dd");
+                document.getElementById("popup1").style.display="none";
+            }
+        </script>
+    </head>
+    <body onmouseout="hide()">
+            <nav>
+                <a href="index.html"><p style="font-size:20px;margin-top:10px;margin-left:20px;color:#401943">AcePetsShop</p></a>
+                <ul id="menu">          
+                    <li><a href="Contact.html">Contact us</a></li>
+                    <li><a href="Aboutus.html">About us </a></li>
+                    </ul>
+                </nav>
+
+        <div id="main">
+            <div class="base">
+                
+                <base >
+                
+            <p class="img-modal" onmouseover="show()"><img src="./image/cat.jpg" id="img1"   /><br><br><span>About this cat</span></p>    
+            <div class="popup1" id="popup1" >
+                Lovely tender, nice hair
+            </div>
+                  
+                <p class="img-modal"><img  src="./image/dog.jpg" /><br><br><span>About this Dog</span></p>
+                
+                
+         <p class="img-modal"><img  src="./image/rabbit.jpg" /><br><br><span>About this Rabbit</span></p>
+            
+            </base>
+           
+                
+            </div>
+             
+            
+        </div>
+    </body>
+</html>
